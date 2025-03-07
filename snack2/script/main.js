@@ -54,5 +54,12 @@ function generateRandomStatistic(maxPoint, arrayTeam) {
         // generate a random number between 0 and 50(both included)
         const randFoulSuffered = Math.floor(Math.random() * (50 + 1));
         console.log(`random number for foul suffered: ${randFoulSuffered}`);
+
+        arrayTeam[i].pointScored = randPointScored;
+        arrayTeam[i].foulSuffered = randFoulSuffered;
+    
+        console.log('');
     }
+
+    console.log(arrayTeam);
 }
