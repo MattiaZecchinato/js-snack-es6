@@ -34,3 +34,25 @@ const footballTeam = [
 
 console.log(footballTeam);
 
+// generate random number for pointScored and foulSuffered
+const maxPointInput = 120;
+
+generateRandomStatistic(maxPointInput, footballTeam);
+
+
+// FUNCTION
+
+// generate random number for pointScored and foulSuffered
+function generateRandomStatistic(maxPoint, arrayTeam) {
+
+    for (let i = 0; i < arrayTeam.length; i++) {
+
+        // generate a random number between 0 and maxPoint(both included)
+        const randPointScored = Math.floor(Math.random() * (maxPoint + 1));
+        console.log(`random number for point scored: ${randPointScored}`);
+
+        // generate a random number between 0 and 50(both included)
+        const randFoulSuffered = Math.floor(Math.random() * (50 + 1));
+        console.log(`random number for foul suffered: ${randFoulSuffered}`);
+    }
+}
