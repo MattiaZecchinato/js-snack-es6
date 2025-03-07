@@ -7,29 +7,30 @@
 const footballTeam = [
     {
         teamName: 'juventus',
-        point: 0,
+        pointScored: 0,
         foulSuffered: 0
     },
     {
         teamName: 'milan',
-        point: 0,
+        pointScored: 0,
         foulSuffered: 0
     },
     {
         teamName: 'inter',
-        point: 0,
+        pointScored: 0,
         foulSuffered: 0
     },
     {
         teamName: 'lazio',
-        point: 0,
+        pointScored: 0,
         foulSuffered: 0
     },
     {
         teamName: 'roma',
-        point: 0,
+        pointScored: 0,
         foulSuffered: 0
     }
 ];
 
 console.log(footballTeam);
+
