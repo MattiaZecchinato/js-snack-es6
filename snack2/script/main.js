@@ -39,6 +39,11 @@ const maxPointInput = 120;
 
 generateRandomStatistic(maxPointInput, footballTeam);
 
+const newArrayTeam = createArray(footballTeam);
+
+console.log('The new array is:');
+console.log(newArrayTeam);
+
 
 // FUNCTION
 
@@ -62,4 +67,23 @@ function generateRandomStatistic(maxPoint, arrayTeam) {
     }
 
     console.log(arrayTeam);
+}
+
+// create new array with object element
+function createArray(arrayInput) {
+    
+    const newArrayOutput = [];
+
+    for (let i = 0; i < arrayInput.length; i++) {
+
+        let tempObject = {
+
+            teamName: arrayInput[i].teamName,
+            foulSuffered: arrayInput[i].foulSuffered
+        }
+
+        newArrayOutput.push(tempObject);
+    }
+
+    return newArrayOutput;
 }
