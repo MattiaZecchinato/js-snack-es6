@@ -5,24 +5,24 @@
 // create array of object
 const arrayBike = [
     {
-        nome: 'Pinarello Dogma F',
-        peso: 7
+        nameBike: 'Pinarello Dogma F',
+        weight: 7
     },
     {
-        nome: 'Trek Madone SLR',
-        peso: 10
+        nameBike: 'Trek Madone SLR',
+        weight: 10
     },
     {
-        nome: 'Cervélo S5',
-        peso: 12
+        nameBike: 'Cervélo S5',
+        weight: 12
     },
     {
-        nome: 'Colnago V4Rs',
-        peso: 6
+        nameBike: 'Colnago V4Rs',
+        weight: 6
     },
     {
-        nome: 'Wilier Filante SLR',
-        peso: 15
+        nameBike: 'Wilier Filante SLR',
+        weight: 15
     }
 ];
 
