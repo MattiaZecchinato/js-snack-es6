@@ -10,3 +10,6 @@ Stampare a schermo la bici con peso minore.
 
 ### Soluzione
 
+- creare un array di oggeti
+    - oggetto --> nome, peso
+- ciclo per stampare la bici con peso minore
